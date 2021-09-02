@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false">
+    <test name="Android">
+        <parameter name="platformName" value="Android"/>
+        <parameter name="udid" value="emulator-5554"/>
+        <parameter name="deviceName" value="Pixel4A"/>
+        <parameter name="systemPort" value="10000"/>
+        <parameter name="chromeDriverPort" value="11000"/>
+        <classes>
+            <class name="com.qa.runners.Pixel4ATestNGRunner"/>
+        </classes>
+    </test>
+
+<!--    <test name="iOS">-->
+<!--        <parameter name="platformName" value="iOS"/>-->
+<!--        <parameter name="udid" value="2554F75D-9AF9-4DB7-9E93-38213F2C652A"/>-->
+<!--        <parameter name="deviceName" value="iPhone 11 Pro"/>-->
+<!--        <parameter name="wdaLocalPort" value="10001"/>-->
+<!--        <parameter name="webkitDebugProxyPort" value="11001"/>-->
+<!--        <classes>-->
+<!--            <class name="com.qa.runners.PixelTestNGRunner"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="Android2">-->
+<!--        <parameter name="platformName" value="Android"/>-->
+<!--        <parameter name="udid" value="ac4a1011"/>-->
+<!--        <parameter name="deviceName" value="ac4a1011"/>-->
+<!--        <parameter name="systemPort" value="10003"/>-->
+<!--        <parameter name="chromeDriverPort" value="11003"/>-->
+<!--        <classes>-->
+<!--            <class name="com.qa.runners.OneplusTestNGRunner"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+</suite>
