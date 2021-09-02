@@ -5,7 +5,7 @@
         <parameter name="platformName" value="Android"/>
         <parameter name="udid" value="emulator-5554"/>
         <parameter name="deviceName" value="Pixel4A"/>
-        <parameter name="systemPort" value="10000"/>
+        <parameter name="systemPort" value="1010"/>
         <parameter name="chromeDriverPort" value="11000"/>
         <classes>
             <class name="com.qa.runners.Pixel4ATestNGRunner"/>
